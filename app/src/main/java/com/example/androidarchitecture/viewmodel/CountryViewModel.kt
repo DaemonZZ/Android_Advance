@@ -19,7 +19,12 @@ class CountryViewModel : ViewModel() {
 
     private fun loadCountries(mutableLiveData: MutableLiveData<List<Country>>) {
         mutableLiveData.postValue(
-            DataPuller.getCountries("https://gist.githubusercontent.com/keeguon/2310008/raw/bdc2ce1c1e3f28f9cab5b4393c7549f38361be4e/countries.json")
+            //Fetch data using https request
+//            DataPuller.getCountries(BASE_URL)
+
+
+            //Fetch data using Retrofit
+            DataPuller.getCountriesUsingRetrofit()
         )
 
 
