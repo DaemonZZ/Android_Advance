@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CustomDrawableNavigation</string>
+    <string name="nav_open">CustomDrawableNavigation</string>
+    <string name="nav_close">CustomDrawableNavigation</string>
+</resources>
