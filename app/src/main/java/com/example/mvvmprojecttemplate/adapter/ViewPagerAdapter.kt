@@ -4,7 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import androidx.viewpager2.adapter.FragmentStateAdapter
 import com.example.mvvmprojecttemplate.fragment.ShopFragment
-import com.example.mvvmprojecttemplate.fragment.ItemFragment
+import com.example.mvvmprojecttemplate.fragment.ProfileFragment
 import com.example.mvvmprojecttemplate.fragment.InventoryFragment
 
 class ViewPagerAdapter(activity: AppCompatActivity) : FragmentStateAdapter(activity) {
@@ -14,7 +14,7 @@ class ViewPagerAdapter(activity: AppCompatActivity) : FragmentStateAdapter(activ
         return when (position) {
             0 -> ShopFragment()
             1 -> InventoryFragment()
-            2 -> ItemFragment()
+            2 -> ProfileFragment()
             else -> throw NoSuchElementException()
         }
     }
