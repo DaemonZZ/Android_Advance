@@ -68,7 +68,7 @@ dependencies {
     implementation("androidx.work:work-rxjava2:$work_version")
 
 
-    // Kotlin
+    // Kotlin nav
     implementation("androidx.navigation:navigation-fragment-ktx:$nav_version")
     implementation("androidx.navigation:navigation-ui-ktx:$nav_version")
     // Feature module Support
