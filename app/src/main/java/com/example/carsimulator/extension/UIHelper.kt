@@ -1,4 +1,4 @@
-package com.example.mvvmprojecttemplate.extension
+package com.example.carsimulator.extension
 
 import android.app.Activity
 import android.view.MotionEvent

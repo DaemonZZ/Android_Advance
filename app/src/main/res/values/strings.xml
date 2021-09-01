@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">MVVM Project Template</string>
+    <string name="app_name">Car Simulator</string>
+    <string name="temp">Temp</string>
+    <string name="press">Press</string>
+    <string name="tire_1">Tire 1:</string>
+    <string name="tire_2">Tire 2:</string>
+    <string name="tire_3">Tire 3:</string>
+    <string name="tire_4">Tire 4:</string>
 </resources>

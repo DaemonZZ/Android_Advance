@@ -1,4 +1,4 @@
-package com.example.mvvmprojecttemplate
+package com.example.carsimulator
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

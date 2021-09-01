@@ -1,4 +1,4 @@
-package com.example.mvvmprojecttemplate
+package com.example.carsimulator
 
 import org.junit.Test
 
