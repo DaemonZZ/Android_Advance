@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.carsimulator">
-
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
     <application
-        android:name=".application.MyApplication"
+        android:name="com.thangdn6.carsimulator.application.MyApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -11,12 +11,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MVVMProjectTemplate">
         <service
-            android:name=".service.AIDLCarService"
+            android:name="com.thangdn6.carsimulator.service.AIDLCarService"
             android:enabled="true"
             android:exported="true"></service>
 
         <activity
-            android:name=".activities.MainActivity"
+            android:name="com.thangdn6.carsimulator.activities.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
