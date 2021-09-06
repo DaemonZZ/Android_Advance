@@ -8,7 +8,5 @@ class NganHVActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_ngan_hvactivity)
-
-        // ngan22 branch
     }
 }
