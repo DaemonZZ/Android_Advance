@@ -1,3 +1,5 @@
 package com.example.mvvmprojecttemplate.extension
 
-class User(private val name: String, val age: Int, val gender: Boolean)
+import java.io.Serializable
+
+class User(private val name: String, val age: Int, val gender: Boolean): Serializable
